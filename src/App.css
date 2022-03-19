@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.container {
+  background-color: #1a1b21;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+img {
+  height: "300px";
+  width: "300px";
+}
